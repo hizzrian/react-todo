@@ -1,8 +1,3 @@
-export default function Header({ author }){
-    return (
-      <header>
-        <h1>React Todo</h1>
-        <p>by {author} ☠️</p>
-      </header>
-    )
-  }
+export default function Header() {
+  return <h1>Catatan Todo 📝</h1>
+}
